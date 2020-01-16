@@ -1,0 +1,36 @@
+.SliderItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 300px;  
+  transform: scale(0.8);
+  opacity: 0.5;
+  cursor: pointer;
+  background-color: #111;
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.5);
+  color: #f2f5f7;
+  letter-spacing: 0.45em;
+  transition-property: transform, opacity;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+.SliderItem:hover {
+  transform: scale(0.87);
+  opacity: 0.8;
+}
+
+.SliderItem.Active {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.Title {
+  font-size: 36px;
+}
+
+.Username {
+  font-size: 16px;
+}

@@ -1,0 +1,16 @@
+.Button {
+  width: 140px;
+  height: 44px;
+  background-color: transparent;
+  font-size: 16px;
+  transition-property: background-color, color;
+  transition-duration: .35s;
+  transition-timing-function: ease;
+  cursor: pointer;
+  outline: 0;
+}
+
+.Button:hover {
+  background-color: #111;
+  color: #f2f5f7;
+}

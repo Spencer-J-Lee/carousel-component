@@ -1,0 +1,8 @@
+.SliderWrapper {
+  position: absolute;
+  left: 50%;
+  transform: translateX(0);
+  margin-left: -125px;
+  display: flex;  
+  transition: transform 0.3s ease;
+}
